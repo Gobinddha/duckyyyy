@@ -150,11 +150,11 @@ async function Login(token, Client, channelId) {
     );
   }
 
-  intervals = Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000;
+  intervals = Math.floor(Math.random() * (4500 - 2000 + 1)) + 2000;
   setInterval(() => interval(intervals), intervals);
 
   setInterval(() => {
-    intervals = Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000;
+    intervals = Math.floor(Math.random() * (4500 - 2000 + 1)) + 2000;
   }, 15000);
 
   startTime = Date.now();
